@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMoney : MonoBehaviour
 {
     [SerializeField] public int _moneyAmount;
+
     public void ProcessWin(int points)
     {
         _moneyAmount += points;
