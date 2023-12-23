@@ -8,6 +8,7 @@ public class DestroyGame : MonoBehaviour
     public GameObject otherObject;
     public PlayerMoney playerMoney;
     public int _pointsForFlower = 20;
+    [SerializeField] public ParticleSystem destroyParticles;
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -17,6 +18,7 @@ public class DestroyGame : MonoBehaviour
             // Делаем объект исчезающим (деактивируем его)
             Destroy(gameObject);
             playerMoney.ProcessWin(_pointsForFlower);
+            Instantiate(destroyParticles, transform.position, Quaternion.identity);
         }
     }
 }

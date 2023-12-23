@@ -25,5 +25,4 @@ public class Soap : MonoBehaviour
             _player.TakeWash(_washAmount);
         }
     }
-
 }

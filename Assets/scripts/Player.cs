@@ -12,6 +12,9 @@ public class Player : MonoBehaviour
     [SerializeField] public ParticleSystem washParticles;
     [SerializeField] public ParticleSystem deathParticles;
     [SerializeField] public ParticleSystem foodParticles;
+    [SerializeField] public GameObject imageObject1;
+    [SerializeField] public GameObject imageObject2;
+    [SerializeField] public GameObject imageObject3;
     public float _timer = 0f;
     public float _interval = 1f;
     public void Start()
@@ -27,13 +30,19 @@ public class Player : MonoBehaviour
             _health--;
             _dirt--;
             _timer = 0f;
+            if (_health<=30)
+            {
+                imageObject1.SetActive(true);
+            }
             if (_dirt <= 30)
             {
                 Dirt();
+                imageObject2.SetActive(true);
             }
             if (_health <= 0 || _dirt <= 0)
             {
                 Destroy();
+                imageObject3.SetActive(true);
             }
         }
     }
@@ -58,8 +67,10 @@ public class Player : MonoBehaviour
     public void Destroy()
     {
         Instantiate(deathParticles, transform.position, Quaternion.identity);
-        Destroy(gameObject);  
-       
+        Destroy(gameObject);
+        Destroy(imageObject1);
+        Destroy(imageObject2);
+
     }
     public void Foods()
     {
@@ -73,15 +84,4 @@ public class Player : MonoBehaviour
     {
         Instantiate(washParticles, transform.position, Quaternion.identity);
     }
-    private void SwitchScene()
-    {
-        SceneManager.LoadScene("Loss"); // Загрузить новую сцену
-    }
-    //public float delay = 3f;
-    //delay -= Time.deltaTime;
-
-    //if (delay <= 0)
-    //{
-    //  SwitchScene();
-    //}
 }
