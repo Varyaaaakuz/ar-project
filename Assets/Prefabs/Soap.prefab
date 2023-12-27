@@ -151,6 +151,7 @@ GameObject:
   - component: {fileID: 1438712737410257676}
   - component: {fileID: 1908584595538683062}
   - component: {fileID: 6595362227801405357}
+  - component: {fileID: 4784027296735820190}
   m_Layer: 7
   m_Name: Soap
   m_TagString: Untagged
@@ -358,6 +359,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _washAmount: 10
+--- !u!114 &4784027296735820190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3778132674020750740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb1a5ac05ab444e48b21acf47c08edb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6400499700420188064
 GameObject:
   m_ObjectHideFlags: 0
