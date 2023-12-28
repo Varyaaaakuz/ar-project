@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 7289013004401242031}
   - component: {fileID: 6899219535163919621}
   - component: {fileID: -4558313292671317918}
-  - component: {fileID: -5317181641898832321}
+  - component: {fileID: -2535617054603796368}
   m_Layer: 6
   m_Name: Burger
   m_TagString: Food
@@ -194,7 +194,7 @@ MonoBehaviour:
   hostTransform: {fileID: 1425885333043045066}
   manipulationType: 3
   twoHandedManipulationType: 7
-  allowFarManipulation: 0
+  allowFarManipulation: 1
   useForcesForNearManipulation: 0
   oneHandRotationModeNear: 1
   oneHandRotationModeFar: 1
@@ -222,7 +222,7 @@ MonoBehaviour:
   onHoverExited:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &-5317181641898832321
+--- !u!114 &-2535617054603796368
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -231,6 +231,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1765995492758009968}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb1a5ac05ab444e48b21acf47c08edb6, type: 3}
+  m_Script: {fileID: 11500000, guid: 2ebd050e063571c4596cc7e62d7a0dc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

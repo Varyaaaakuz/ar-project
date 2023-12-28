@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 6391370577067761764}
   - component: {fileID: -1862066872702098063}
   - component: {fileID: 8045158326363878655}
-  - component: {fileID: -1415979530632192803}
+  - component: {fileID: -2575011195344192445}
   m_Layer: 6
   m_Name: Cake
   m_TagString: Food
@@ -181,7 +181,7 @@ MonoBehaviour:
   hostTransform: {fileID: 7642236399058220573}
   manipulationType: 3
   twoHandedManipulationType: 7
-  allowFarManipulation: 0
+  allowFarManipulation: 1
   useForcesForNearManipulation: 0
   oneHandRotationModeNear: 1
   oneHandRotationModeFar: 1
@@ -222,7 +222,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _healthAmount: 10
---- !u!114 &-1415979530632192803
+--- !u!114 &-2575011195344192445
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -231,6 +231,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 7009146036524199079}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb1a5ac05ab444e48b21acf47c08edb6, type: 3}
+  m_Script: {fileID: 11500000, guid: 2ebd050e063571c4596cc7e62d7a0dc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

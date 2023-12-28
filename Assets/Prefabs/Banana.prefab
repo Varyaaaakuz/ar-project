@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: -1061159214801077316}
   - component: {fileID: 1584888762063665737}
   - component: {fileID: -4887290732012212950}
-  - component: {fileID: 1012446008840406283}
+  - component: {fileID: -9105482107179185865}
   m_Layer: 6
   m_Name: Banana
   m_TagString: Food
@@ -140,7 +140,7 @@ MonoBehaviour:
   hostTransform: {fileID: 1567182029461747248}
   manipulationType: 3
   twoHandedManipulationType: 7
-  allowFarManipulation: 0
+  allowFarManipulation: 1
   useForcesForNearManipulation: 0
   oneHandRotationModeNear: 1
   oneHandRotationModeFar: 1
@@ -222,7 +222,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1012446008840406283
+--- !u!114 &-9105482107179185865
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -231,6 +231,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 2230530226155236490}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb1a5ac05ab444e48b21acf47c08edb6, type: 3}
+  m_Script: {fileID: 11500000, guid: 2ebd050e063571c4596cc7e62d7a0dc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
